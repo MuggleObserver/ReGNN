@@ -1,5 +1,5 @@
 
-# GPASAN
+# ReGNN
 We setup our experiment on an Nvidia 1080Ti GPU and 256G memory on CentOs. 
 
 Experiment Environment
@@ -10,7 +10,7 @@ Experiment Environment
 
 Project Struct
 ------
-> ### GPASAN/datasets/
+> ### ReGNNdatasets/
 * data_preprocess.py  ------ the data process file for three datasets.
 
 * YoochooseSubDataset/
@@ -18,7 +18,7 @@ Project Struct
 >> * test.txt  ------ test dataset
 >> * train.txt  ------ train dataset
 
-> ### GPASAN/program、
+> ### ReGNN/program/
 * main.py                   ------ this is the program entry
 * ReGNN.py             ------ the major ReGNN model
 * utils.py                  ------ some helper functions we used
