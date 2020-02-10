@@ -10,19 +10,18 @@ Experiment Environment
 
 Project Struct
 ------
-> ### GPASAN/data/
-* taobao_buy_8_time_4.zip  ------ the dataset of taobao buy, Each line is in format: UserID \t ItemID \t CategoryId \t Time. we don't use the category information, It's just for catering to some other datasets' format. Unzip the taobao_buy_8_time_4.zip in this directory before running the program.
+> ### GPASAN/datasets/
+* data_preprocess.py  ------ the data process file for three datasets.
 
-* adj_matrix/taobao_buy_8/ 
->> * s_norm_adj_mat.npz  ------ the preprocessed adjacent matrix of the item-item graph
->> * taobao_buy_8.txt  ------ a temporary file
+* YoochooseSubDataset/
+>> * all_train_seq.txt  ------ all train sequence dadaset
+>> * test.txt  ------ test dataset
+>> * train.txt  ------ train dataset
 
-> ### GPASAN/
+> ### GPASAN/program、
 * main.py                   ------ this is the program entry
-* model_time_two_channel_gcn.py             ------ the major PGASAN model
-* modules_time.py                  ------ the periodic-attenuated self-attention network module
-* sampler_time_repeat.py                  ------ The file used to create the training data
-* util_periodic_two_channel.py                  ------ some helper and test functions we used
+* ReGNN.py             ------ the major ReGNN model
+* utils.py                  ------ some helper functions we used
 
 Recommended Setup
 ------
