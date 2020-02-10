@@ -10,7 +10,7 @@ Experiment Environment
 
 Project Struct
 ------
-> ### ReGNNdatasets/
+> ### ReGNN/datasets/
 * data_preprocess.py  ------ the data process file for three datasets.
 
 * YoochooseSubDataset/
